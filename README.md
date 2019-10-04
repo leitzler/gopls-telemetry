@@ -1,6 +1,6 @@
 # Telemetry bundle container for gopls
 
-The Go language server https://github.com/golang/tools/blob/master/gopls/doc/user.md supports writing telemetry to an Open Census agent.
+The Go language server [gopls](https://github.com/golang/tools/blob/master/gopls/doc/user.md) supports writing telemetry to an Open Census agent.
 
 This docker image acts as a all-in-one image when you would like to access metrics & traces without going through the installation and setup of ocagent, jaeger, prometheus, etc. It is intended to be used during development for debugging.
 
